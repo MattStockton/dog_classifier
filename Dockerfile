@@ -19,7 +19,7 @@ RUN apt-get update && apt-get install -y \
 # Install the required packages
 RUN pip install --no-cache-dir flask torch torchvision pillow requests
 
-# Make port 5000 available to the world outside this container
+# Make port 5001 available to the world outside this container
 EXPOSE 5001
 
 # Use an environment variable to specify the script to run
